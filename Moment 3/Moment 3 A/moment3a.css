@@ -1,0 +1,26 @@
+h1 { color: #006600;
+    font-family: Arial;
+    font-size: 25px;
+    }
+
+    h2 { color: yellow;
+    font-family: Arial;
+    font-size: 20px;
+    }
+
+    .text {
+    color: red;
+    font-family: Verdana;
+    font-size: 12px;
+    }
+
+    #box {
+        width: 500;
+        padding: 25px;
+        border: 5px solid;
+        background-color: silver;
+    }
+
+   
+
+   

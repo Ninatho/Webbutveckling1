@@ -1,0 +1,123 @@
+body
+{
+    background-image: url(bildsida/blommor.webp);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+}
+h1
+{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: -1px;
+    background-color: rgba(0,0,0,0.3);
+    padding: 25px;
+}
+.välkommen
+{
+    color: white;
+    
+}
+.lösen
+{
+    text-align: center;
+    margin-top: 8%;
+    opacity: 60%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    
+}  
+#användare
+{
+    padding-right: 30px;
+    text-align: center;
+}
+#lösen
+{
+    padding-right: 30px;
+    text-align: center;
+}
+#meny
+{
+    list-style-type: none;
+    
+}
+.submit
+{
+    text-align: center;
+    opacity: 70%;
+    margin-right: 30px;
+    margin-top: -25px;
+    
+}
+.avbryt
+{
+    text-align: center;
+    opacity: 70%;
+    margin-right: 28px;
+    margin-top: 4px;
+    
+}
+.andrasidan
+{
+    color: white;
+}
+#pagecontent
+{
+    text-align: center;
+}
+.lista1
+{
+    list-style-type: none;
+    overflow: hidden;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -22px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.lista1 li
+{
+    float: left;
+    width: 150px;
+}
+.lista1 li a
+{
+    display: block;
+    padding: 14px 16px;
+    color: white;
+    background-color: rgba(0,0,0,0.4);
+    text-decoration: none;
+    
+}
+.lista1 li a:hover
+{
+    background-color: rgba(0,0,0,0.6);
+}
+.dropbtn
+{
+    position: relative;
+}
+.dropdown-content
+{
+    display: none;
+    background-color: black;
+    z-index: 1;
+}
+.dropdown-content a
+{
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    text-align: left;
+}
+.dropdown-content a:hover 
+{
+    background-color: white;
+}
+.dropdown:hover .dropdown-content
+{
+    display: block;
+}
+

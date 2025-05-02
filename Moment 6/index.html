@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Min sida 1</title>
+    <link href="moment6.css" rel="stylesheet" type="text/css">
+    <script>
+        var antalförsök = 3;
+        function LoggaIn()
+        {
+            var användarnamn = document.getElementById('användare').value;
+            var lösenord = document.getElementById('lösen').value;
+            if(användarnamn == "css" && lösenord == "html")
+            {
+                alert("Rätt användarnamn och lösenord");
+            }
+            else
+            {
+                antalförsök--;
+                alert("Fel användarnamn eller lösenord! Du har " + antalförsök + "antal försök kvar");
+                if(antalförsök <= 0)
+                {
+                    document.getElementById("användare").disabled = true
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1>VÄLKOMMENT TILL MIN INLOGGNINGSSIDA</h1>
+    
+    <fieldset>
+    <form action="Moment6b.html">
+        <div class="lösen">
+        <label for="användare">Användar namn:css</label><br>
+        <input type="text" id="användare" name="användare" required pattern="css"><br>
+        <label for="lösen">Lösenord:html</label><br>
+        <input type="text" id="lösen" name="lösen" required pattern="html"><br>
+        </div>
+    
+    <br>
+        <ul id="meny">
+            <li><a href="Moment6b.html"><div class="submit"><input class="logg" type="submit" onclick="LoggaIn()" value="LOGGA IN"></div></a></li>
+            <li><a href="index.html"><div class="avbryt"><input class="logg" type="button" value="AVBRYT"></div></a></li>
+        </ul>
+    </form>
+        <br>
+        <div class="innehåll">
+        <form>
+            <input type="checkbox" id="remember" name="komihåg" value="komihåg">
+            <label for="komihåg"><span class="komihåg">KOM IHÅG MIG</span></label> 
+        </form>
+        <ul>
+            <li><a href="haha.html"><div class="glömt"><input class="glöm" type="submit" value="GLÖMT LÖSENORD KLICKA HÄR"></div></a></li>
+        </ul>
+       
+        </div>
+    </fieldset>
+
+    
+    
+    <footer class="copy"> Copyright&#169 Nina </footer>
+</body>
+</html>
+ <!--du sa att de va okej med input med anchortag-->

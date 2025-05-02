@@ -1,0 +1,165 @@
+body{
+    background-image: linear-gradient(to right, green, yellow 20%);
+    
+}
+h1{ color: red;
+font-size: 30px;
+border-top: solid 2px red;
+border-bottom: solid 2px red;
+text-align: center;
+
+} 
+header{
+    text-align: center;
+}
+.bild1{
+    width: 150px;
+    margin-right: 115px;
+    box-shadow: 10px 20px rgba(0,0,0);
+}
+#box1 {
+    background-color: white;
+    width: 195px;
+    height: auto;
+    padding: 30px;
+    left: -261px;
+    top: 28px;
+    position: relative;
+    background-image: linear-gradient(yellow, green);
+    margin: auto;
+}
+.div1{
+    background-image: radial-gradient(rgb(248, 109, 132) 60%, rgb(118, 5, 118));
+    border-radius: 50%;
+    height: 55px;
+    line-height: 50px;
+    font-weight: bold;
+    font-size: 17px;
+    
+}
+.gultK{
+    color: yellow;
+    font-size: 30px;
+}
+.text1{
+    text-align: left;
+}
+#box2 {
+    background-color: white;
+    width: 195px;
+    height: auto;
+    padding: 30px;
+    left: 4px;
+    top: -290px;
+    position: relative;
+    background-image: linear-gradient(green, yellow);
+    margin: auto;
+}
+.div2{
+    background-image: radial-gradient(rgb(248, 109, 132) 60%, rgb(118, 5, 118));
+    border-radius: 50%;
+    height: 55px;
+    line-height: 50px;
+    font-weight: bold;
+    font-size: 17px;
+}
+.gultS{
+    color: yellow;
+    font-size: 30px;
+}
+.text2{
+    text-align: left;
+}
+#box3 {
+    background-color: white;
+    width: 195px;
+    height: auto;
+    padding: 30px;
+    left: 269px;
+    top: -571px;
+    position: relative;
+    background-image: linear-gradient(green, yellow, green);
+    margin: auto;
+}
+.div3{
+    background-image: radial-gradient(rgb(248, 109, 132) 60%, rgb(118, 5, 118));
+    border-radius: 50%;
+    height: 55px;
+    line-height: 50px;
+    font-weight: bold;
+    font-size: 17px;
+}
+.gultH{
+    color: yellow;
+    font-size: 30px;
+}
+.text3{
+    text-align: left;
+}
+h2{
+    font-size: 30px;
+    border-top: solid 2px black;
+    border-bottom: solid 2px black;
+    text-align: center;
+    margin-top: -490px;
+    
+    
+}
+.bild2{
+    width: 150px;
+    margin-right: 180px;
+    box-shadow: 10px 20px rgba(0,0,0);
+}
+#box4 {
+    background-color: white;
+    width: 300px;
+    height: auto;
+    padding: 30px;
+    left: -174px;
+    top: 25px;
+    position: relative;
+    background-image: linear-gradient(to right, yellow 70%, green);
+    margin: auto;
+}
+.div4{
+    background-image: radial-gradient(rgb(248, 109, 132) 60%, rgb(118, 5, 118));
+    border-radius: 50%;
+    height: 55px;
+    line-height: 3;
+    font-weight: bold;
+    font-size: 18px;
+}
+.stortB{
+    font-size: 35px;
+}
+.text4{
+    text-align: left;
+}
+#box5 {
+    background-color: white;
+    width: 300px;
+    height: auto;
+    padding: 30px;
+    left: 195px;
+    top: -241px;
+    position: relative;
+    background-image: repeating-linear-gradient(200deg,green,yellow 9%, green 20%);
+    margin: auto;
+}
+.div5{
+    background-image: radial-gradient(rgb(248, 109, 132) 60%, rgb(118, 5, 118));
+    border-radius: 50%;
+    height: 55px;
+    line-height: 3;
+    font-weight: bold;
+    font-size: 18px;
+}
+.stortD{
+    font-size: 35px;
+}
+.text5{
+    text-align: left;
+}
+img:last-of-type{
+    margin-right: 0px;
+}

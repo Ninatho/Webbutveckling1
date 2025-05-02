@@ -1,0 +1,28 @@
+#box1 {
+    background-color: yellow;
+    width: 200px;
+    margin: 0;
+    padding: 30px;
+    float: left;
+    border: 5px solid #808080;
+}
+
+#box2 {
+    background-color: aqua;
+    width: 200px;
+    margin: 0;
+    padding: 30px;
+    float: left;
+    border: 5px solid #808080;
+    
+}
+
+#box3 {
+    background-color: green;
+    width: 200px;
+    margin: 0;
+    padding: 30px;
+    float: left;
+    border: 5px solid #808080;
+    
+}

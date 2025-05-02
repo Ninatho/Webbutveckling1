@@ -1,0 +1,143 @@
+body
+{
+    background-image: url(bildsida/solros.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    margin: auto;
+    height: 100vh;
+}
+h1
+{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: -1px;
+    background-color: rgba(0,0,0,0.3);
+    padding: 25px;
+    color: white;
+}
+fieldset
+{
+    background-color: rgba(0,0,0,0.3);
+    display: block;
+    margin: auto;
+    margin-top: 70px;
+    width: 500px;
+    height: 250px;
+    border-color: rgba(0,0,0,0.3);
+    border-radius: 10px;
+}
+.lösen
+{
+    text-align: center;
+    margin-top: 8%;
+    opacity: 60%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}  
+#användare
+{
+    padding-right: 30px;
+    text-align: center;
+    border: solid white;
+    border-radius: 5px;
+}
+#lösen
+{
+    padding-right: 30px;
+    text-align: center;
+    border: solid white;
+    border-radius: 5px;
+}
+.komihåg
+{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.glömt
+{
+    margin-left: 100px;
+}
+.glöm
+{
+    background-color: rgba(0,0,0,0.1);
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: none;
+}
+.innehåll
+{
+    display: flex;
+    align-items: center;
+}
+#meny
+{
+    list-style-type: none;
+}
+.submit
+{
+    text-align: center;
+    opacity: 70%;
+    margin-right: 30px;
+    margin-top: -25px;
+}
+.avbryt
+{
+    text-align: center;
+    opacity: 70%;
+    margin-right: 28px;
+    margin-top: 4px;
+}
+.logg
+{
+    background-color: rgba(0,0,0,0.3);
+    color: white;
+    border: solid;
+    border-color: rgba(0,0,0,0.3);
+    border-radius: 8px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.logg:hover
+{
+    background-color: rgba(0,0,0,0.6);
+}
+.andrasidan
+{
+    color: white;
+}
+#pagecontent
+{
+    text-align: center;
+}
+.lista1
+{
+    list-style-type: none;
+    overflow: hidden;
+    margin-left: 380px;
+    margin-top: -22px;
+}
+.lista1 li
+{
+    float: left;
+}
+.lista1 li a
+{
+    display: block;
+    padding: 14px 16px;
+    color: white;
+    background-color: rgba(0,0,0,0.4);
+    text-decoration: none;
+}
+.lista1 li a:hover
+{
+    background-color: rgba(0,0,0,0.6);
+}
+.copy
+{
+    color: white;
+    margin-top: 250px;
+    text-align: center;
+    font-size: 150%;
+}

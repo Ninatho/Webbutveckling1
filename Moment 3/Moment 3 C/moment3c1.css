@@ -1,0 +1,31 @@
+#box1 {
+    background-color: yellow;
+    width: 200px;
+    padding: 30px;
+    position: absolute;
+    left: 20px;
+    top: 170px;
+    border: 5px solid #808080;
+}
+
+#box2 {
+    background-color: aqua;
+    width: 200px;
+    padding: 30px;
+    position: absolute;
+    left: 120px;
+    top: 80px;
+    border: 5px solid #808080;
+    z-index: 1;
+}
+
+#box3 {
+    background-color: green;
+    width: 200px;
+    padding: 30px;
+    position: absolute;
+    left: 90px;
+    top: 130px;
+    border: 5px solid #808080;
+    z-index: 2;
+}
